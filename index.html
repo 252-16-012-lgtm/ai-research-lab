@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Research Lab | CIS Department - DIU</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Main navigation">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+        <div class="nav-logo-circle" aria-hidden="true">AI</div>
+        <span class="brand-text">AI Research Lab</span>
+      </a>
+
+      <!-- Hamburger toggle (mobile) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu"
+        aria-controls="navMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="toggler-bar"></span>
+        <span class="toggler-bar"></span>
+        <span class="toggler-bar"></span>
+      </button>
+
+      <!-- Nav links -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-nav-cta" href="#contact">Join Our Lab</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- =============================================
+       HOME / HERO SECTION
+  ============================================== -->
+  <section id="home" class="hero-section" aria-label="Hero section">
+    <!-- Animated background grid -->
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+      <div class="row align-items-center min-vh-100 py-5">
+
+        <!-- Text column -->
+        <div class="col-lg-7 hero-text-col">
+          <div class="hero-tag reveal">
+            <span class="tag-dot" aria-hidden="true"></span>
+            CIS Department &nbsp;·&nbsp; Daffodil International University
+          </div>
+
+          <h1 class="hero-title reveal">
+            <span class="title-line">Advancing</span>
+            <span class="title-line accent-line">Artificial</span>
+            <span class="title-line">Intelligence</span>
+          </h1>
+
+          <p class="hero-mission reveal">
+            The AI Research Lab pioneers cutting-edge research in
+            Machine Learning, Deep Learning, Computer Vision, NLP,
+            Robotics, and Data Science — bridging academia and industry
+            for a smarter, more equitable future.
+          </p>
+
+          <div class="hero-cta-group reveal">
+            <a href="#research" class="btn btn-primary-hero">
+              <i class="bi bi-search" aria-hidden="true"></i> Explore Research
+            </a>
+            <a href="#team" class="btn btn-ghost-hero">
+              Meet the Team <i class="bi bi-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Stats column -->
+        <div class="col-lg-5 hero-stats-col reveal">
+          <div class="stats-card">
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-number" data-target="50">0</span>
+                <span class="stat-plus">+</span>
+                <span class="stat-label">Publications</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="20">0</span>
+                <span class="stat-plus">+</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="15">0</span>
+                <span class="stat-plus">+</span>
+                <span class="stat-label">Researchers</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="6">0</span>
+                <span class="stat-plus"></span>
+                <span class="stat-label">Domains</span>
+              </div>
+            </div>
+            <div class="stats-footer">
+              <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              Established under CIS Dept · DIU
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+  <section id="about" class="about-section" aria-labelledby="about-heading">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <p class="section-tag">Who we are</p>
+        <h2 class="section-title" id="about-heading">About the Lab</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+      </div>
+
+      <div class="row g-5 align-items-start">
+        <div class="col-lg-6 reveal">
+          <div class="about-block">
+            <div class="about-icon-wrap" aria-hidden="true">
+              <i class="bi bi-building"></i>
+            </div>
+            <h3>Our Background</h3>
+            <p>
+              Established within the Department of Computing and Information
+              System at Daffodil International University, the AI Research Lab
+              was founded with the mission of making Bangladesh a significant
+              contributor to the global artificial intelligence landscape.
+            </p>
+            <p>
+              Since its inception, the lab has grown into a vibrant research
+              community that attracts talented students, experienced faculty,
+              and industry collaborators from across the country and beyond.
+            </p>
+          </div>
+
+          <div class="about-block mt-4">
+            <div class="about-icon-wrap vision-icon" aria-hidden="true">
+              <i class="bi bi-eye"></i>
+            </div>
+            <h3>Our Vision</h3>
+            <blockquote class="vision-quote">
+              "To become a globally recognised centre of excellence in AI
+              research — producing transformative knowledge that empowers
+              individuals, industries, and societies."
+            </blockquote>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal">
+          <div class="about-block">
+            <div class="about-icon-wrap goals-icon" aria-hidden="true">
+              <i class="bi bi-bullseye"></i>
+            </div>
+            <h3>Research Goals</h3>
+            <ul class="goals-list" aria-label="Research goals">
+              <li>
+                <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                Develop novel ML algorithms for real-world data challenges.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                Collaborate with international universities and industry partners.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                Publish high-impact research in top-tier journals and conferences.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                Mentor the next generation of AI researchers and engineers.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                Bridge the gap between theoretical AI and practical applications.
+              </li>
+            </ul>
+          </div>
+
+          <div class="about-block mt-4">
+            <div class="about-icon-wrap contrib-icon" aria-hidden="true">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <h3>Contributions</h3>
+            <p>
+              The lab actively partners with government bodies, technology
+              companies, and non-profit organisations to translate AI research
+              into tools that address societal challenges in healthcare,
+              education, agriculture, and automation.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="research" class="research-section" aria-labelledby="research-heading">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <p class="section-tag">What we study</p>
+        <h2 class="section-title" id="research-heading">Research Areas</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <p class="section-subtitle">
+          Six core domains where our researchers push the boundaries of what AI can do.
+        </p>
+      </div>
+      <div class="research-grid">
+
+        <article class="research-card reveal" aria-label="Machine Learning research area">
+          <div class="r-card-icon" aria-hidden="true">
+            <i class="bi bi-cpu"></i>
+          </div>
+          <h3>Machine Learning</h3>
+          <p>Developing predictive models, supervised and unsupervised learning algorithms, and statistical methods for real-world data challenges.</p>
+          <div class="r-card-tag">ML</div>
+        </article>
+
+        <article class="research-card reveal" aria-label="Deep Learning research area">
+          <div class="r-card-icon" aria-hidden="true">
+            <i class="bi bi-diagram-3"></i>
+          </div>
+          <h3>Deep Learning</h3>
+          <p>Designing advanced neural architectures — CNNs, RNNs, Transformers — for complex pattern recognition and generation tasks.</p>
+          <div class="r-card-tag">DL</div>
+        </article>
+
+        <article class="research-card reveal" aria-label="Computer Vision research area">
+          <div class="r-card-icon" aria-hidden="true">
+            <i class="bi bi-camera"></i>
+          </div>
+          <h3>Computer Vision</h3>
+          <p>Teaching machines to interpret visual data — object detection, image segmentation, facial recognition, and scene understanding.</p>
+          <div class="r-card-tag">CV</div>
+        </article>
+
+        <article class="research-card reveal" aria-label="Natural Language Processing research area">
+          <div class="r-card-icon" aria-hidden="true">
+            <i class="bi bi-chat-square-text"></i>
+          </div>
+          <h3>Natural Language Processing</h3>
+          <p>Enabling computers to understand, interpret, and generate human language — with a focus on low-resource Bangla NLP.</p>
+          <div class="r-card-tag">NLP</div>
+        </article>
+
+        <article class="research-card reveal" aria-label="Robotics research area">
+          <div class="r-card-icon" aria-hidden="true">
+            <i class="bi bi-robot"></i>
+          </div>
+          <h3>Robotics</h3>
+          <p>Building intelligent autonomous systems, control mechanisms, and human-robot interaction interfaces for industrial and social applications.</p>
+          <div class="r-card-tag">RBT</div>
+        </article>
+
+        <article class="research-card reveal" aria-label="Data Science research area">
+          <div class="r-card-icon" aria-hidden="true">
+            <i class="bi bi-bar-chart-line"></i>
+          </div>
+          <h3>Data Science</h3>
+          <p>Extracting meaningful insights from large-scale structured and unstructured datasets using statistical analysis and visualisation.</p>
+          <div class="r-card-tag">DS</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+  <section id="team" class="team-section" aria-labelledby="team-heading">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <p class="section-tag">The people behind the research</p>
+        <h2 class="section-title" id="team-heading">Our Team</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <p class="section-subtitle">
+          A dedicated community of faculty, researchers, and students working together.
+        </p>
+      </div>
+      <div class="director-card reveal" aria-label="Lab Director profile">
+        <div class="director-photo-wrap">
+          <div class="director-avatar" aria-hidden="true">AR</div>
+        </div>
+        <div class="director-info">
+          <span class="director-badge">Lab Director</span>
+          <h3>Dr. A. Rahman</h3>
+          <p class="director-title">Professor, CIS Department</p>
+          <p class="director-bio">
+            Dr. A. Rahman is a distinguished researcher with over 15 years of
+            experience in Deep Learning and Computer Vision. He completed his
+            PhD from a leading international university and has published more
+            than 40 research papers in top-tier IEEE and ACM conferences.
+            Under his leadership, the lab has secured multiple research grants
+            and established international collaborations.
+          </p>
+          <div class="director-links">
+            <a href="#" class="dir-link" aria-label="Email Dr. Rahman">
+              <i class="bi bi-envelope-fill" aria-hidden="true"></i> director@ailab.diu.edu.bd
+            </a>
+            <a href="#" class="dir-link" aria-label="Dr. Rahman on Google Scholar">
+              <i class="bi bi-mortarboard-fill" aria-hidden="true"></i> Google Scholar
+            </a>
+          </div>
+        </div>
+      </div>
+      <h3 class="team-sub-heading reveal">Faculty Researchers</h3>
+      <div class="team-grid">
+
+        <article class="team-card reveal" aria-label="Dr. S. Karim profile">
+          <div class="team-avatar" aria-hidden="true">SK</div>
+          <h4>Dr. S. Karim</h4>
+          <p class="team-role">Senior Researcher</p>
+          <p class="team-bio">Specialist in NLP and large language models with a focus on Bangla text processing and sentiment analysis.</p>
+          <div class="team-tags">
+            <span class="team-tag">NLP</span>
+            <span class="team-tag">LLM</span>
+          </div>
+        </article>
+
+        <article class="team-card reveal" aria-label="Dr. N. Islam profile">
+          <div class="team-avatar nv" aria-hidden="true">NI</div>
+          <h4>Dr. N. Islam</h4>
+          <p class="team-role">Associate Researcher</p>
+          <p class="team-bio">Focuses on computer vision applications in medical imaging and autonomous vehicle perception systems.</p>
+          <div class="team-tags">
+            <span class="team-tag">CV</span>
+            <span class="team-tag">Medical AI</span>
+          </div>
+        </article>
+
+        <article class="team-card reveal" aria-label="Dr. R. Ahmed profile">
+          <div class="team-avatar ra" aria-hidden="true">RA</div>
+          <h4>Dr. R. Ahmed</h4>
+          <p class="team-role">Assistant Researcher</p>
+          <p class="team-bio">Expert in reinforcement learning and robotics control systems, developing autonomous navigation algorithms.</p>
+          <div class="team-tags">
+            <span class="team-tag">RL</span>
+            <span class="team-tag">Robotics</span>
+          </div>
+        </article>
+
+      </div>
+      <h3 class="team-sub-heading reveal">Graduate Students</h3>
+      <div class="team-grid">
+
+        <article class="team-card reveal" aria-label="M. Hasan profile">
+          <div class="team-avatar gs" aria-hidden="true">MH</div>
+          <h4>M. Hasan</h4>
+          <p class="team-role">PhD Researcher</p>
+          <p class="team-bio">Working on real-time object detection using lightweight CNN architectures optimised for edge devices.</p>
+          <div class="team-tags">
+            <span class="team-tag">CNN</span>
+            <span class="team-tag">Edge AI</span>
+          </div>
+        </article>
+
+        <article class="team-card reveal" aria-label="T. Begum profile">
+          <div class="team-avatar gs2" aria-hidden="true">TB</div>
+          <h4>T. Begum</h4>
+          <p class="team-role">MSc Researcher</p>
+          <p class="team-bio">Conducting research on transformer-based models for Bangla machine translation and cross-lingual transfer.</p>
+          <div class="team-tags">
+            <span class="team-tag">NLP</span>
+            <span class="team-tag">Transformers</span>
+          </div>
+        </article>
+
+        <article class="team-card reveal" aria-label="K. Roy profile">
+          <div class="team-avatar gs3" aria-hidden="true">KR</div>
+          <h4>K. Roy</h4>
+          <p class="team-role">MSc Researcher</p>
+          <p class="team-bio">Investigating federated learning approaches for privacy-preserving healthcare data analysis.</p>
+          <div class="team-tags">
+            <span class="team-tag">FL</span>
+            <span class="team-tag">Healthcare</span>
+          </div>
+        </article>
+
+      </div>
+      <h3 class="team-sub-heading reveal">Research Assistants</h3>
+      <div class="team-grid">
+
+        <article class="team-card reveal" aria-label="F. Islam profile">
+          <div class="team-avatar asst" aria-hidden="true">FI</div>
+          <h4>F. Islam</h4>
+          <p class="team-role">Research Assistant</p>
+          <p class="team-bio">Supporting data collection, preprocessing pipelines, and ML model evaluation for ongoing lab projects.</p>
+          <div class="team-tags">
+            <span class="team-tag">Data Science</span>
+          </div>
+        </article>
+
+        <article class="team-card reveal" aria-label="S. Chowdhury profile">
+          <div class="team-avatar asst2" aria-hidden="true">SC</div>
+          <h4>S. Chowdhury</h4>
+          <p class="team-role">Research Assistant</p>
+          <p class="team-bio">Assisting in developing and testing computer vision datasets and annotation tools for Bengali sign language.</p>
+          <div class="team-tags">
+            <span class="team-tag">CV</span>
+            <span class="team-tag">Dataset</span>
+          </div>
+        </article>
+
+        <article class="team-card reveal" aria-label="R. Miah profile">
+          <div class="team-avatar asst3" aria-hidden="true">RM</div>
+          <h4>R. Miah</h4>
+          <p class="team-role">Research Assistant</p>
+          <p class="team-bio">Contributing to robotics simulation environments and sensor data processing for autonomous navigation.</p>
+          <div class="team-tags">
+            <span class="team-tag">Robotics</span>
+            <span class="team-tag">Simulation</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <p class="section-tag">Get in touch</p>
+        <h2 class="section-title" id="contact-heading">Contact &amp; Collaboration</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <p class="section-subtitle">
+          Interested in collaborating, joining the lab, or learning more? Reach out to us.
+        </p>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-lg-5 reveal">
+          <div class="contact-info-card">
+
+            <div class="contact-info-item">
+              <div class="ci-icon" aria-hidden="true"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <strong>Location</strong>
+                <p>AI Research Lab, CIS Department<br />
+                   Daffodil International University<br />
+                   Ashulia, Savar, Dhaka 1342</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="ci-icon" aria-hidden="true"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <strong>Email</strong>
+                <p>
+                  <a href="mailto:ailab@diu.edu.bd">ailab@diu.edu.bd</a><br />
+                  <a href="mailto:director@ailab.diu.edu.bd">director@ailab.diu.edu.bd</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="ci-icon" aria-hidden="true"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <p>+880 2 7791045-51</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="ci-icon" aria-hidden="true"><i class="bi bi-clock-fill"></i></div>
+              <div>
+                <strong>Office Hours</strong>
+                <p>Sunday – Thursday: 9:00 AM – 5:00 PM</p>
+              </div>
+            </div>
+
+            <!-- Social / Research platforms -->
+            <div class="social-links" aria-label="Social and research platform links">
+              <a href="#" class="social-btn" aria-label="GitHub">
+                <i class="bi bi-github" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-btn" aria-label="ResearchGate">
+                <i class="bi bi-journals" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-btn" aria-label="Google Scholar">
+                <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-btn" aria-label="LinkedIn">
+                <i class="bi bi-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="col-lg-7 reveal">
+          <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_ID" method="POST" novalidate aria-label="Contact form">
+
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="fname" class="form-label">First Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="fname" name="first_name"
+                       class="form-control" placeholder="e.g. Farhan"
+                       required aria-required="true" />
+                <div class="invalid-feedback">Please enter your first name.</div>
+              </div>
+              <div class="col-sm-6">
+                <label for="lname" class="form-label">Last Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="lname" name="last_name"
+                       class="form-control" placeholder="e.g. Islam"
+                       required aria-required="true" />
+                <div class="invalid-feedback">Please enter your last name.</div>
+              </div>
+            </div>
+
+            <div class="mt-3">
+              <label for="email" class="form-label">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email"
+                     class="form-control" placeholder="you@example.com"
+                     required aria-required="true" />
+              <div class="invalid-feedback">Please enter a valid email address.</div>
+            </div>
+
+            <div class="mt-3">
+              <label for="subject" class="form-label">Subject <span aria-hidden="true">*</span></label>
+              <select id="subject" name="subject" class="form-select" required aria-required="true">
+                <option value="" disabled selected>Select a subject...</option>
+                <option value="join">Join the Lab</option>
+                <option value="collab">Research Collaboration</option>
+                <option value="project">Project Inquiry</option>
+                <option value="general">General Question</option>
+              </select>
+              <div class="invalid-feedback">Please select a subject.</div>
+            </div>
+
+            <div class="mt-3">
+              <label for="message" class="form-label">Message <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message"
+                        class="form-control" rows="5"
+                        placeholder="Tell us about your interest or inquiry..."
+                        required aria-required="true"></textarea>
+              <div class="invalid-feedback">Please enter your message.</div>
+            </div>
+
+            <div class="mt-4">
+              <button type="submit" class="btn btn-submit" id="submitBtn">
+                <span id="btnText">
+                  <i class="bi bi-send-fill" aria-hidden="true"></i> Send Message
+                </span>
+              </button>
+            </div>
+
+            <!-- Success / Error feedback -->
+            <div id="formFeedback" class="form-feedback" role="alert" aria-live="polite"></div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       FOOTER
+  ============================================== -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="row g-4 footer-top">
+
+        <div class="col-lg-4">
+          <div class="footer-brand">
+            <div class="footer-logo" aria-hidden="true">AI</div>
+            <div>
+              <p class="footer-brand-name">AI Research Lab</p>
+              <p class="footer-brand-dept">CIS Department · DIU</p>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Advancing the frontiers of artificial intelligence through
+            rigorous research, innovation, and academic excellence.
+          </p>
+        </div>
+
+        <div class="col-lg-2 col-sm-4">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links" aria-label="Quick links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-sm-4">
+          <h4 class="footer-heading">Research Areas</h4>
+          <ul class="footer-links" aria-label="Research areas">
+            <li><a href="#research">Machine Learning</a></li>
+            <li><a href="#research">Deep Learning</a></li>
+            <li><a href="#research">Computer Vision</a></li>
+            <li><a href="#research">NLP</a></li>
+            <li><a href="#research">Robotics</a></li>
+            <li><a href="#research">Data Science</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-sm-4">
+          <h4 class="footer-heading">Contact</h4>
+          <address class="footer-address">
+            AI Research Lab, CIS Dept<br />
+            Daffodil International University<br />
+            Ashulia, Savar, Dhaka 1342<br />
+            <a href="mailto:ailab@diu.edu.bd">ailab@diu.edu.bd</a>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 AI Research Lab, CIS Department &mdash;
+          Daffodil International University. All rights reserved.
+        </p>
+        <p class="footer-student">
+          Built by Student ID: 252-16-012 &nbsp;|&nbsp;
+          CIS 133L &nbsp;|&nbsp; Spring 2026
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
